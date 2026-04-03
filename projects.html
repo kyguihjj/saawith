@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Projects</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.webp">
+<link rel="apple-touch-icon" href="favicon.webp">
+</head>
+
+<body>
+
+<header>
+<h1>البروجيكتات</h1>
+<a href="bots.html">⬅ رجوع</a>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>بروجيكت سيستم (افتح تكت للتفاصيل)</h2>
+<p class="price">50000 Credit</p>
+<button onclick="openBuy('بروجيكت سيستم',50000)">شراء</button>
+</div>
+
+</div>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+<div class="popup-content">
+<h2 id="planName"></h2>
+<input id="user" placeholder="يوزر ديسكورد">
+<div id="commandBox"></div>
+<button onclick="copy()">نسخ</button>
+<button onclick="send()">تأكيد</button>
+<button onclick="closePopup()">إلغاء</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Servers</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.webp">
+<link rel="apple-touch-icon" href="favicon.webp">
+</head>
+
+<body>
+
+<header>
+<h1>قسم السيرفرات</h1>
+<a href="index.html">⬅ رجوع</a>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>بيسط (افتح تكت للتفاصيل)</h2>
+<p class="price">20000 Credit</p>
+<button onclick="openBuy('بسيط',20000)">شراء</button>
+</div>
+
+<div class="card">
+<h2>بريميوم (افتح تكت للتفاصيل)</h2>
+<p class="price">120000 Credit</p>
+<button onclick="openBuy('بريميوم',120000)">شراء</button>
+</div>
+
+</div>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+<div class="popup-content">
+<h2 id="planName"></h2>
+<input id="user" placeholder="يوزر ديسكورد">
+<div id="commandBox"></div>
+<button onclick="copy()">نسخ</button>
+<button onclick="send()">تأكيد</button>
+<button onclick="closePopup()">إلغاء</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

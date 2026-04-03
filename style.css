@@ -1,0 +1,103 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#020617,#020b1a);
+color:white;
+text-align:center;
+}
+
+/* هيدر */
+
+header{
+padding:30px;
+background:#020b1a;
+border-bottom:2px solid #00aaff;
+box-shadow:0 0 20px #00aaff;
+}
+
+h1{
+color:#00aaff;
+text-shadow:0 0 10px #00aaff;
+}
+
+/* Grid */
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:40px;
+}
+
+/* كروت */
+
+.card{
+background:#020617;
+border:1px solid #00aaff;
+border-radius:15px;
+padding:20px;
+transition:0.3s;
+text-decoration:none;
+color:white;
+}
+
+.card:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #00aaff;
+}
+
+.price{
+color:#38bdf8;
+}
+
+/* Popup */
+
+.popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.8);
+display:none;
+justify-content:center;
+align-items:center;
+}
+
+.popup-content{
+background:#020617;
+padding:30px;
+border-radius:15px;
+border:1px solid #00aaff;
+box-shadow:0 0 20px #00aaff;
+}
+
+input{
+padding:10px;
+margin:10px;
+width:200px;
+background:#020b1a;
+border:1px solid #00aaff;
+color:white;
+}
+
+button{
+background:#00aaff;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0077aa;
+}
+
+#commandBox{
+background:#020b1a;
+padding:10px;
+border-radius:8px;
+margin:10px;
+color:#38bdf8;
+}
